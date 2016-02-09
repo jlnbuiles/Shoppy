@@ -14,7 +14,9 @@ import CoreData
 
 extension AppCategory {
 
-  @NSManaged var name: String?
-  @NSManaged var resultsCount: Int16
+    @NSManaged var name: String?
+    @NSManaged var resultsCount: Int16
+    @NSManaged var id: String?
+    @NSManaged var app: NSSet?
 
 }

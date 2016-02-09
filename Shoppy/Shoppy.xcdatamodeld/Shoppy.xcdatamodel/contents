@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15D21" minimumToolsVersion="Automatic">
+    <entity name="App" representedClassName=".App" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="summary" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="category" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="AppCategory" inverseName="app" inverseEntity="AppCategory" syncable="YES"/>
+    </entity>
     <entity name="AppCategory" representedClassName=".AppCategory" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="resultsCount" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
-    </entity>
-    <entity name="Event">
-        <attribute name="name" optional="YES" attributeType="String">
-            <userInfo/>
-        </attribute>
-        <userInfo/>
+        <relationship name="app" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="App" inverseName="category" inverseEntity="App" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Event" positionX="261" positionY="189" width="128" height="60"/>
-        <element name="AppCategory" positionX="261" positionY="198" width="128" height="75"/>
+        <element name="App" positionX="270" positionY="216" width="128" height="135"/>
+        <element name="AppCategory" positionX="261" positionY="198" width="128" height="105"/>
     </elements>
 </model>

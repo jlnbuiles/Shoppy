@@ -9,18 +9,14 @@ class AppDetailVC: UIViewController {
 
   @IBOutlet weak var detailDescriptionLabel: UILabel!
 
-  var detailItem: AnyObject? {
+  var app: App? {
     didSet {
         self.configureView()
     }
   }
 
   func configureView() {
-    if let detail = self.detailItem {
-        if let label = self.detailDescriptionLabel {
-            label.text = detail.valueForKey("timeStamp")!.description
-        }
-    }
+    title = app?.name
   }
 
   override func viewDidLoad() {
@@ -33,4 +29,3 @@ class AppDetailVC: UIViewController {
   }
 
 }
-

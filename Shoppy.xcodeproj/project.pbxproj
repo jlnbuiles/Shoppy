@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D050B7D1C6987C00078A8AF /* LocalPersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D050B7C1C6987C00078A8AF /* LocalPersistenceManager.swift */; };
+		7D050B801C6991520078A8AF /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D050B7F1C6991520078A8AF /* Reachability.swift */; };
+		7D5B41321C69500F00D96C5F /* ShoppyConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5B41311C69500F00D96C5F /* ShoppyConfig.swift */; };
 		7D79982C1C68544B0012D2B0 /* AppCategoriesTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D79982A1C68544B0012D2B0 /* AppCategoriesTVC.swift */; };
 		7D79982D1C68544B0012D2B0 /* AppDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D79982B1C68544B0012D2B0 /* AppDetailVC.swift */; };
 		7D7998301C6854660012D2B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D79982F1C6854660012D2B0 /* AppDelegate.swift */; };
@@ -14,12 +17,23 @@
 		7D79983A1C6858970012D2B0 /* AppCategory+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7998381C6858970012D2B0 /* AppCategory+CoreDataProperties.swift */; };
 		7D79983B1C6858970012D2B0 /* AppCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7998391C6858970012D2B0 /* AppCategory.swift */; };
 		7D79983D1C6864850012D2B0 /* ApplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D79983C1C6864850012D2B0 /* ApplicationController.swift */; };
+		7D7998401C6871110012D2B0 /* AppRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D79983F1C6871110012D2B0 /* AppRepository.swift */; };
+		7D7998431C6872210012D2B0 /* App+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7998411C6872210012D2B0 /* App+CoreDataProperties.swift */; };
+		7D7998441C6872210012D2B0 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7998421C6872210012D2B0 /* App.swift */; };
+		7DAA78FA1C6A50EF00F468BE /* AppsCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAA78F91C6A50EF00F468BE /* AppsCVC.swift */; };
+		7DAA78FC1C6A6E6500F468BE /* AppCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAA78FB1C6A6E6500F468BE /* AppCollectionViewCell.swift */; };
 		7DFA320E1C655288000AF39B /* Shoppy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7DFA320C1C655288000AF39B /* Shoppy.xcdatamodeld */; };
 		7DFA32151C655288000AF39B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DFA32131C655288000AF39B /* Main.storyboard */; };
 		7DFA32171C655288000AF39B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DFA32161C655288000AF39B /* Assets.xcassets */; };
+		AABB4E6C142CF373C4C3EE9F /* Pods_Shoppy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7646ACCDC7C0B219CDBA191 /* Pods_Shoppy.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2280EBF23625EE26D7411971 /* Pods-Shoppy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shoppy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shoppy/Pods-Shoppy.debug.xcconfig"; sourceTree = "<group>"; };
+		2517C761067204B58DB6322F /* Pods-Shoppy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shoppy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shoppy/Pods-Shoppy.release.xcconfig"; sourceTree = "<group>"; };
+		7D050B7C1C6987C00078A8AF /* LocalPersistenceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalPersistenceManager.swift; sourceTree = "<group>"; };
+		7D050B7F1C6991520078A8AF /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		7D5B41311C69500F00D96C5F /* ShoppyConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppyConfig.swift; sourceTree = "<group>"; };
 		7D79982A1C68544B0012D2B0 /* AppCategoriesTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCategoriesTVC.swift; sourceTree = "<group>"; };
 		7D79982B1C68544B0012D2B0 /* AppDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDetailVC.swift; sourceTree = "<group>"; };
 		7D79982F1C6854660012D2B0 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -27,11 +41,17 @@
 		7D7998381C6858970012D2B0 /* AppCategory+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppCategory+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		7D7998391C6858970012D2B0 /* AppCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCategory.swift; sourceTree = "<group>"; };
 		7D79983C1C6864850012D2B0 /* ApplicationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationController.swift; sourceTree = "<group>"; };
+		7D79983F1C6871110012D2B0 /* AppRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppRepository.swift; sourceTree = "<group>"; };
+		7D7998411C6872210012D2B0 /* App+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "App+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7D7998421C6872210012D2B0 /* App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		7DAA78F91C6A50EF00F468BE /* AppsCVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppsCVC.swift; sourceTree = "<group>"; };
+		7DAA78FB1C6A6E6500F468BE /* AppCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCollectionViewCell.swift; sourceTree = "<group>"; };
 		7DFA32071C655288000AF39B /* Shoppy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shoppy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DFA320D1C655288000AF39B /* Shoppy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shoppy.xcdatamodel; sourceTree = "<group>"; };
 		7DFA32141C655288000AF39B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7DFA32161C655288000AF39B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DFA321B1C655288000AF39B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7646ACCDC7C0B219CDBA191 /* Pods_Shoppy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shoppy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,17 +59,52 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AABB4E6C142CF373C4C3EE9F /* Pods_Shoppy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C39967F6F781882DCD4F7AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7646ACCDC7C0B219CDBA191 /* Pods_Shoppy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63530ECC60236C09441F1037 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2280EBF23625EE26D7411971 /* Pods-Shoppy.debug.xcconfig */,
+				2517C761067204B58DB6322F /* Pods-Shoppy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7D050B7B1C6987AF0078A8AF /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				7D050B7C1C6987C00078A8AF /* LocalPersistenceManager.swift */,
+			);
+			path = "Core Data";
+			sourceTree = "<group>";
+		};
+		7D050B7E1C6991470078A8AF /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				7D050B7F1C6991520078A8AF /* Reachability.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
 		7D7998291C68544B0012D2B0 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				7D79982A1C68544B0012D2B0 /* AppCategoriesTVC.swift */,
 				7D79982B1C68544B0012D2B0 /* AppDetailVC.swift */,
+				7DAA78F91C6A50EF00F468BE /* AppsCVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -59,6 +114,7 @@
 			children = (
 				7D79982F1C6854660012D2B0 /* AppDelegate.swift */,
 				7D79983C1C6864850012D2B0 /* ApplicationController.swift */,
+				7D5B41311C69500F00D96C5F /* ShoppyConfig.swift */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -75,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				7D7998331C68550D0012D2B0 /* AppCategoryCell.swift */,
+				7DAA78FB1C6A6E6500F468BE /* AppCollectionViewCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -82,10 +139,20 @@
 		7D7998351C6855900012D2B0 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				7D7998411C6872210012D2B0 /* App+CoreDataProperties.swift */,
+				7D7998421C6872210012D2B0 /* App.swift */,
 				7D7998381C6858970012D2B0 /* AppCategory+CoreDataProperties.swift */,
 				7D7998391C6858970012D2B0 /* AppCategory.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		7D79983E1C6871010012D2B0 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				7D79983F1C6871110012D2B0 /* AppRepository.swift */,
+			);
+			path = Repositories;
 			sourceTree = "<group>";
 		};
 		7DFA31FE1C655288000AF39B = {
@@ -93,6 +160,8 @@
 			children = (
 				7DFA32091C655288000AF39B /* Shoppy */,
 				7DFA32081C655288000AF39B /* Products */,
+				63530ECC60236C09441F1037 /* Pods */,
+				5C39967F6F781882DCD4F7AF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,8 +176,11 @@
 		7DFA32091C655288000AF39B /* Shoppy */ = {
 			isa = PBXGroup;
 			children = (
+				7D050B7E1C6991470078A8AF /* Networking */,
+				7D79983E1C6871010012D2B0 /* Repositories */,
 				7D79982E1C6854660012D2B0 /* Application */,
 				7D7998291C68544B0012D2B0 /* Controllers */,
+				7D050B7B1C6987AF0078A8AF /* Core Data */,
 				7D7998351C6855900012D2B0 /* Models */,
 				7D7998311C6854F60012D2B0 /* UI */,
 				7DFA32131C655288000AF39B /* Main.storyboard */,
@@ -126,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7DFA321E1C655288000AF39B /* Build configuration list for PBXNativeTarget "Shoppy" */;
 			buildPhases = (
+				97C47FC7BAF2AC1B536E3FF5 /* Check Pods Manifest.lock */,
 				7DFA32031C655288000AF39B /* Sources */,
 				7DFA32041C655288000AF39B /* Frameworks */,
 				7DFA32051C655288000AF39B /* Resources */,
+				F3F8852EA1F424F88C330BFD /* Embed Pods Frameworks */,
+				93CBBEBA731EB809F2776533 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -184,19 +259,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		93CBBEBA731EB809F2776533 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shoppy/Pods-Shoppy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97C47FC7BAF2AC1B536E3FF5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F3F8852EA1F424F88C330BFD /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shoppy/Pods-Shoppy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7DFA32031C655288000AF39B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D050B801C6991520078A8AF /* Reachability.swift in Sources */,
 				7DFA320E1C655288000AF39B /* Shoppy.xcdatamodeld in Sources */,
 				7D79982C1C68544B0012D2B0 /* AppCategoriesTVC.swift in Sources */,
+				7D7998441C6872210012D2B0 /* App.swift in Sources */,
 				7D7998341C68550D0012D2B0 /* AppCategoryCell.swift in Sources */,
 				7D79983B1C6858970012D2B0 /* AppCategory.swift in Sources */,
 				7D7998301C6854660012D2B0 /* AppDelegate.swift in Sources */,
 				7D79983A1C6858970012D2B0 /* AppCategory+CoreDataProperties.swift in Sources */,
 				7D79983D1C6864850012D2B0 /* ApplicationController.swift in Sources */,
+				7D7998401C6871110012D2B0 /* AppRepository.swift in Sources */,
+				7D050B7D1C6987C00078A8AF /* LocalPersistenceManager.swift in Sources */,
 				7D79982D1C68544B0012D2B0 /* AppDetailVC.swift in Sources */,
+				7D5B41321C69500F00D96C5F /* ShoppyConfig.swift in Sources */,
+				7DAA78FA1C6A50EF00F468BE /* AppsCVC.swift in Sources */,
+				7DAA78FC1C6A6E6500F468BE /* AppCollectionViewCell.swift in Sources */,
+				7D7998431C6872210012D2B0 /* App+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +430,7 @@
 		};
 		7DFA321F1C655288000AF39B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2280EBF23625EE26D7411971 /* Pods-Shoppy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
@@ -306,11 +438,13 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.grability.Shoppy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Debug;
 		};
 		7DFA32201C655288000AF39B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2517C761067204B58DB6322F /* Pods-Shoppy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
@@ -318,6 +452,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.grability.Shoppy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Release;
 		};
